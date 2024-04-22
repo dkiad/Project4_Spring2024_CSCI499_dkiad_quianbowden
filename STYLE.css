@@ -13,7 +13,27 @@
         0 0 151px #0fa;
 }
 
+.title{
+    color: #fff;
+    text-shadow:
+    /* White glow */
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        /* Color of Glow */
+        0 0 42px rgb(234, 24, 24),
+        0 0 82px rgb(234, 24, 24),
+        0 0 92px rgb(234, 24, 24),
+        0 0 102px rgb(234, 24, 24),
+        0 0 151px rgb(234, 24, 24);
+
+    font-size: 20px;
+    text-align: center;
+}
 body {
     background-image: url("gamejudgebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
 }
+
 

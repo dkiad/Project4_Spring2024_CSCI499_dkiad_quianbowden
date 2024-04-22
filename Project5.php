@@ -7,18 +7,12 @@ $servername = 'localhost'; //for XAMPP we use localhost
    $dbname = 'project5'; //Change this to whatever database name you set in PHPmyAdmin
 
    $link = mysqli_connect($servername,$username,$password, $dbname);
-if (mysqli_connect_error())
-{
-   die("Database connection is unsuccessful");
 
-}
-else 
-{
-   echo "Database connection is successful";
-};
 
 
 $queryInsert = "INSERT INTO users (email, password) VALUES ('dentdkia@gmail.com', 'yespassword')"; // this is used to update a row in the database. 
+
+//If you leave this line in here it will fill up the table with the same information every refresh
 
 
 mysqli_query($link, $queryInsert);
@@ -35,9 +29,6 @@ if ($result = mysqli_query($link, $query)) {
 mysqli_close($link); // Close connection
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +39,7 @@ mysqli_close($link); // Close connection
 </head>
     <body>
         <div class="container">
-            <h1>THE ARACADE </h1>
+            <h1 class="title">THE ARACADE </h1>
         <form action="signup.php" method="POST">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -67,3 +58,4 @@ mysqli_close($link); // Close connection
 
 
 </html>
+
