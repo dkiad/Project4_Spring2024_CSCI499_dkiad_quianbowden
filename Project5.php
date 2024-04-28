@@ -10,7 +10,7 @@ $servername = 'localhost'; //for XAMPP we use localhost
 
 
 
-$queryInsert = "INSERT INTO users (email, password) VALUES ('dentdkia@gmail.com', 'yespassword')"; // this is used to update a row in the database. 
+$queryInsert = "INSERT INTO users (email, password, username) VALUES ('dentdkia@gmail.com', 'yespassword', 'dkiad')"; // this is used to update a row in the database. 
 
 //If you leave this line in here it will fill up the table with the same information every refresh
 
