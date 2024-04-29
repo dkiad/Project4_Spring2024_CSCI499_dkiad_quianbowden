@@ -13,8 +13,7 @@ if (!$link) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-// Close connection
-mysqli_close($link);
+
 ?> 
 
 <!DOCTYPE html>
