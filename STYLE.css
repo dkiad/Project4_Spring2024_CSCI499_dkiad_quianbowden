@@ -30,10 +30,11 @@
     font-size: 30px;
     text-align: center;
 }
+
 body {
-    background-image: url("gamejudgebg.png");
+    background-image: url("websitebg.jpg");
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 
