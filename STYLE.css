@@ -27,8 +27,21 @@
         0 0 102px rgb(234, 24, 24),
         0 0 151px rgb(234, 24, 24);
 
-    font-size: 30px;
+    font-size: 100px;
+    margin-top: 120px;
     text-align: center;
+}
+
+.signup{
+    height: 200px;
+    width: 30%;
+    background-color: deepskyblue;
+}
+
+.login{
+    height: 200px;
+    width: 30%;
+    background-color:deeppink;
 }
 
 body {

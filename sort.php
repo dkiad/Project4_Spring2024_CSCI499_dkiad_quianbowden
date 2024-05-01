@@ -25,11 +25,23 @@
                 background-color: red;
                 
             }
+
+            #bannerimage {
+                width: 100%;
+                background-image: url("Game Judge The Arcade.gif");
+                height: 300px;
+                background-color: purple;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
         </style>
         
     </head>
 
     <body>
+
+        <div id="bannerimage"></div>
         
         <div id="accordion">
         
@@ -74,7 +86,7 @@
                     Picture yourself as a master builder, game developer, fashion designer, and virtual explorer all rolled into one. In Roblox, you can create your own unique worlds, 
                     design incredible games, and bring your wildest dreams to life with just a few clicks.
                 </p>
-                    <img src="roblox.jpeg" alt =" Roblox "
+                    <img src="roblox.jpeg" alt =" Roblox ">
 
             </div>
         
@@ -86,7 +98,7 @@
                     intricate redstone contraptions, or even a humble dirt hut - the choice is yours!
                 </p>
 
-                    <img src="minecraft.jpeg" alt =" Minecraft " 
+                    <img src="minecraft.jpeg" alt =" Minecraft " >
             </div>
         
             <h3> The Sims 4 </h3>
@@ -97,7 +109,7 @@
                     where you're the puppeteer and every Sim is a potential drama llama waiting to happen.
                 </p>
                 
-                    <img src="sims.jpeg" atl =" The Sims 4 " 
+                    <img src="sims.jpeg" atl =" The Sims 4 " >
                 
             </div>
         
