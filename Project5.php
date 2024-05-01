@@ -30,13 +30,13 @@ if (!$link) {
         
         <div class="signup">
             <form action="signup.php" method="POST">
-                <label for="username">Username:</label>
+                <label for="username" class="neonText">Username:</label>
                 <input type="text" id="username" name='username' required>
 
-                <label for="email">Email:</label>
+                <label for="email" class="neonText">Email:</label>
                 <input type="email" id="email" name='email' required>
 
-                <label for="password">Password:</label>
+                <label for="password" class="neonText">Password:</label>
                 <input type="password" id="password" name='password' required>
 
                 <button type="submit">Sign Up</button>
@@ -45,10 +45,10 @@ if (!$link) {
 
         <div class="login">
             <form action="login.php" method="POST">
-                <label for="username">Username:</label>
+                <label for="username" class="neonText">Username:</label>
                 <input type="text" id="username" name='username' required>
 
-                <label for="password">Password:</label>
+                <label for="password" class="neonText">Password:</label>
                 <input type="password" id="password" name='password' required>
 
                 <button type="submit">Login</button>
