@@ -21,7 +21,7 @@ $queryInsert = "INSERT INTO users (email, password, username) VALUES ('$email', 
 
 // Execute the insert query
 if (mysqli_query($link, $queryInsert)) {
-  echo "New record created successfully";
+  header("Location: sort.php");
 } else {
   echo "Error: " . $queryInsert . "<br>" . mysqli_error($link);
 }
